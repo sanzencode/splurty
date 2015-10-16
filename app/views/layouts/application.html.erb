@@ -30,7 +30,19 @@
 
 	<br class="clear" />
 
+<div class="container">
 <%= yield %>
+</div>
+<div class="footer">
+<div class="container">
+	
+	<div class="col-xs-6">
+		<%= link_to "Wait! I want to see more..." , "#", :class => 'next-quote' %>
+	</div>
+	
+	<div class="col-xs-6 footer-blurb">Proudly hacked in Chico, CA<br/>by <a href="http://sandraharrasser.com" target="_blank">Sandra Harrasser</a>
+	</div>
+
 
 </body>
 </html>
