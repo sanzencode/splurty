@@ -1,3 +1,6 @@
+
+
+
 .clear {
 	clear:both;
 }
@@ -38,6 +41,8 @@ padding-top:26px;
 	font-size: 25px;
 	border: 2px dotted #60A6BD;
 	padding: 10px;
+	font-family: 'fengardo_neueregular', sans-serif;
+	font-weight:bold;
 }
 
 header {
@@ -47,4 +52,16 @@ header {
 
 hr {
 	clear:both;
+}
+
+h1 {
+	font-family: 'fengardo_neueregular', sans-serif;
+	font-weight:bold;
+	font-size:40px;
+}
+
+h2 {
+	font-family: 'fengardo_neueregular', sans-serif;
+	font-weight:600;
+	
 }
