@@ -34,13 +34,14 @@
 }
 
 .links {
-padding-top:26px;
+	padding-top:26px;
 	
 }
+
 .links a {
 	color:black;
 	font-size: 25px;
-	border: 2px dotted #60A6BD;
+	border-bottom: 1px dotted #60A6BD;
 	padding: 10px;
 	font-family: 'fengardo_neueregular', sans-serif;
 	font-weight:bold;
@@ -48,7 +49,6 @@ padding-top:26px;
 
 header {
 	border-top: 12px solid #60A6BD;
-
 }
 
 hr {
