@@ -1,7 +1,7 @@
 <h2>
-<span>Splurty | No. <%= @quote.id %>
-<br />
-Here's the best <em>unsolicited life advise</em> you can get!</span></h2>
+<span>Splurty | <%= @quote.unique_tag %></span>
+<br /><br />
+Here's the best <em>unsolicited life advise</em> you can get!</h2>
 
 <h1><%= @quote.saying %></h1>
 <h2 class="pull-right">~ <%= @quote.author %></h2>
